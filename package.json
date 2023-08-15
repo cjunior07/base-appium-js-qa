@@ -1,0 +1,37 @@
+{
+  "name": "poc-mobile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "clean-allure-reports": "del /q allure-results\\*",
+    "test": "npm run clean-allure-reports && mocha -R allure-mocha --grep"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/allure-reporter": "^8.10.6",
+    "allure-commandline": "^2.22.1",
+    "allure-mocha": "^2.4.0",
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "mocha-multi": "^1.1.7",
+    "mocha-simple-html-reporter": "^2.0.0",
+    "webdriverio": "^8.10.6"
+  },
+  "bundledDependencies": [
+    "chai",
+    "mocha"
+  ],
+  "bundleDependencies": [
+    "chai",
+    "mocha"
+  ],
+  "dependencies": {
+    "chai-as-promised": "^7.1.1"
+  }
+}

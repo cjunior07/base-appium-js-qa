@@ -1,0 +1,17 @@
+{
+    "name": "poc-mobile",
+    "dockerFile": "../ci.Dockerfile",
+    "forwardPorts": [
+        4723
+    ],
+    "extensions": [
+        "adpyke.codesnap",
+        "ms-vscode-remote.remote-containers",
+        "vscode-icons-team.vscode-icons",
+        "christian-kohler.path-intellisense",
+        "xabikos.javascriptsnippets",
+        "maty.vscode-mocha-sidebar",
+        "dbaeumer.vscode-eslint"
+    ],
+    "settings": {}
+}
